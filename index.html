@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт-визитка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Портфолио</a>
+            <nav class="nav" id="nav-menu">
+                <a href="#about" class="nav-link">О себе</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <button class="burger" id="burger-btn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Главный экран -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Привет, я веб-разработчик!</h1>
+                <p>Создаю современные, быстрые и адаптивные сайты для вашего бизнеса.</p>
+                <a href="#contacts" class="btn">Связаться со мной</a>
+            </div>
+        </section>
+
+        <!-- Раздел "О себе" -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>О себе</h2>
+                <p>Здесь вы можете написать краткую историю о вашем опыте, стеке технологий и проектах, которыми вы гордитесь. Данный шаблон легко редактируется под любые нужды.</p>
+            </div>
+        </section>
+
+        <!-- Раздел "Услуги" -->
+        <section id="services" class="section bg-light">
+            <div class="container">
+                <h2>Мои услуги</h2>
+                <div class="services-grid">
+                    <div class="card">
+                        <h3>Лендинги</h3>
+                        <p>Одностраничные сайты под ключ с высокой конверсией.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Сайты-визитки</h3>
+                        <p>Компактные сайты для презентации ваших услуг в сети.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Адаптация</h3>
+                        <p>Настройка отображения вашего текущего сайта на смартфонах.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Контакты" -->
+        <section id="contacts" class="section">
+            <div class="container text-center">
+                <h2>Контакты</h2>
+                <p>Готовы начать проект? Напишите мне в социальных сетях!</p>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://t.me" target="_blank" class="social-link">Telegram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
